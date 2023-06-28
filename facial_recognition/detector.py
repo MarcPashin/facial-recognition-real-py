@@ -53,7 +53,7 @@ def encode_known_faces(
     with encodings_location.open(mode="wb") as f:
         pickle.dump(name_encodings, f)
 
-#encode_known_faces() 
+encode_known_faces() 
 # this line is only needed when training on a new set of data
 
 
